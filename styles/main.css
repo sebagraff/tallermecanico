@@ -1,0 +1,166 @@
+html * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+header{
+    width: 100vw;
+    height: 20vh;
+}
+
+div.titleBar{
+    background-color: green;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+nav{
+    background-color: red;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+nav a {
+    padding: 0.5vw 2vh ;
+    background-color: whitesmoke;
+    text-decoration: none;
+    border:2px solid blue;
+
+
+}
+
+#logo{
+    width: 3vw;
+}
+
+#sobremi{
+    background-color: blue;
+    color: white;
+}
+
+main{
+    background-color:rgb(224, 166, 4);
+    height: 72vh;
+    display: flex; 
+    padding: 3vw; 
+    align-items: center;
+    justify-content: center;
+}
+main *{
+    margin-left: 20px;
+}
+#titi{
+    width: 25vw;
+}
+
+div.intro > p ,h2{
+    margin-bottom: 10px;
+
+}
+#titiTuerca{
+    text-decoration: underline;
+    font-style: italic;
+}
+section.introSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li{
+    margin-left: 3vw;
+}
+
+aside{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    display: flex;
+   
+}
+
+aside img{
+    width: 15vw;
+    margin-left: 0;
+}
+
+div.clientexp {
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+div.clientxp1, div.clientexp2{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    color: white;
+    font-size: large;
+
+}
+
+div.clientxp1, div.clientexp2 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+div.asideContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+div.textxp2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+div.textxp2 >p{
+    margin-bottom: 25px;
+    
+}
+
+p.firma {
+    text-align: right;
+}
+
+
+footer{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    flex-direction: column;
+}
+
+fieldset{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+fieldset * {
+    margin-left: 10px;
+}
+
+div.footerTitle{
+    font-size: large;
+}
